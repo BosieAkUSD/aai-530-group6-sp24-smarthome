@@ -6,8 +6,6 @@ current_directory = os.getcwd()
 
 # Update the file paths with the correct relative paths and the "data_files" directory
 file_paths = [
-    os.path.join(current_directory, "data_files", "HomeA-meter2_2016.csv"),
-    os.path.join(current_directory, "data_files", "HomeA-meter3_2016.csv"),
     os.path.join(current_directory, "data_files", "HomeA-meter4_2016.csv")
 ]
 
