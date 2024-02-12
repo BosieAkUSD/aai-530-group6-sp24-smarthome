@@ -1,10 +1,10 @@
 Original Dataset:
-           Date & Time  use [kW]  gen [kW]  KitchenDenLights [kW]  \
-0  2016-01-01 00:00:00       0.0       0.0               0.007658   
-1  2016-01-01 00:15:00       0.0       0.0               0.007607   
-2  2016-01-01 00:30:00       0.0       0.0               0.007591   
-3  2016-01-01 00:45:00       0.0       0.0               0.007613   
-4  2016-01-01 01:00:00       0.0       0.0               0.007593   
+           Date & Time  use [kW]  KitchenDenLights [kW]  \
+0  2016-01-01 00:00:00  0.273372               0.007658   
+1  2016-01-01 00:15:00  0.262987               0.007607   
+2  2016-01-01 00:30:00  0.157252               0.007591   
+3  2016-01-01 00:45:00  0.252618               0.007613   
+4  2016-01-01 01:00:00  0.244700               0.007593   
 
    MasterBedBathLights [kW]  MasterOutlets [kW]  DenOutdoorLights [kW]  \
 0                  0.021299            0.021406               0.000456   
@@ -37,7 +37,6 @@ Original Dataset:
 Missing Values:
 Date & Time                         0
 use [kW]                            0
-gen [kW]                            0
 KitchenDenLights [kW]               0
 MasterBedBathLights [kW]            0
 MasterOutlets [kW]                  0
@@ -55,7 +54,6 @@ dtype: int64
 Data Types:
 Date & Time                         datetime64[ns]
 use [kW]                                   float64
-gen [kW]                                   float64
 KitchenDenLights [kW]                      float64
 MasterBedBathLights [kW]                   float64
 MasterOutlets [kW]                         float64
@@ -73,10 +71,7 @@ dtype: object
 Range Checks:
 
 Range for use [kW]:
-Min: 0.0, Max: 0.0
-
-Range for gen [kW]:
-Min: 0.0, Max: 0.0
+Min: 0.021933334, Max: 5.028483332
 
 Range for KitchenDenLights [kW]:
 Min: 0.001333333, Max: 0.348316667
@@ -115,3 +110,4 @@ Range for OfficeLights [kW]:
 Min: 0.013166667, Max: 1.253616667
 
 Duplicate Timestamps: 60
+
