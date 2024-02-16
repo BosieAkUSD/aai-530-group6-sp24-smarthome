@@ -1,1 +1,11 @@
+#performing basci summary statistics on dataset
+print("\nSummary Statistics:")
+print(HomeA-meter4_2016_updated.csv.describe())
 
+# plotting histogram to see the distribution and usage of energy per swtich/circuit i.e. masterbedlights, masterbathlights, microwave...etc, in kw  
+# Plot histograms of the numerical data from dataset
+ocular_disease_df.hist(figsize=(12, 10), bins=20)
+plt.suptitle("Histograms of Energy Usage per Switch/Circuit \n", fontsize=20, y=1.07, x =.6)
+plt.tight_layout(rect=(0, 0, 1.2, 1.2))
+plt.subplots_adjust(top=0.999)
+plt.show()
