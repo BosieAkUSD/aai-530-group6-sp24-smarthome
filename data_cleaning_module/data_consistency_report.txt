@@ -1,42 +1,41 @@
 Original Dataset:
-           Date & Time  use [kW]  KitchenDenLights [kW]  \
-0  2016-01-01 00:00:00  0.273372               0.007658   
-1  2016-01-01 00:15:00  0.262987               0.007607   
-2  2016-01-01 00:30:00  0.157252               0.007591   
-3  2016-01-01 00:45:00  0.252618               0.007613   
-4  2016-01-01 01:00:00  0.244700               0.007593   
+           Date & Time  KitchenDenLights [kW]  MasterBedBathLights [kW]  \
+0  2016-01-01 00:00:00               0.007658                  0.021299   
+1  2016-01-01 00:15:00               0.007607                  0.004709   
+2  2016-01-01 00:30:00               0.007591                  0.004656   
+3  2016-01-01 00:45:00               0.007613                  0.004643   
+4  2016-01-01 01:00:00               0.007593                  0.004641   
 
-   MasterBedBathLights [kW]  MasterOutlets [kW]  DenOutdoorLights [kW]  \
-0                  0.021299            0.021406               0.000456   
-1                  0.004709            0.021479               0.000487   
-2                  0.004656            0.020737               0.000480   
-3                  0.004643            0.020870               0.000496   
-4                  0.004641            0.020090               0.000494   
+   MasterOutlets [kW]  DenOutdoorLights [kW]  DenOutlets [kW]  \
+0            0.021406               0.000456         0.002296   
+1            0.021479               0.000487         0.002352   
+2            0.020737               0.000480         0.002363   
+3            0.020870               0.000496         0.002366   
+4            0.020090               0.000494         0.002367   
 
-   DenOutlets [kW]  RearBasementLights [kW]  KitchenOutletsEast [kW]  \
-0         0.002296                 0.001924                 0.003860   
-1         0.002352                 0.001914                 0.003768   
-2         0.002363                 0.001926                 0.003592   
-3         0.002366                 0.001916                 0.003728   
-4         0.002367                 0.001923                 0.003711   
+   RearBasementLights [kW]  KitchenOutletsEast [kW]  KitchenOutletsSouth [kW]  \
+0                 0.001924                 0.003860                  0.005704   
+1                 0.001914                 0.003768                  0.005693   
+2                 0.001926                 0.003592                  0.005790   
+3                 0.001916                 0.003728                  0.005720   
+4                 0.001923                 0.003711                  0.005722   
 
-   KitchenOutletsSouth [kW]  DishwasherDisposalSinkLight [kW]  \
-0                  0.005704                          0.002150   
-1                  0.005693                          0.002147   
-2                  0.005790                          0.002184   
-3                  0.005720                          0.002152   
-4                  0.005722                          0.002154   
+   DishwasherDisposalSinkLight [kW]  Refrigerator [kW]  Microwave [kW]  \
+0                          0.002150           0.132692        0.004703   
+1                          0.002147           0.139037        0.004823   
+2                          0.002184           0.034479        0.004660   
+3                          0.002152           0.129486        0.004822   
+4                          0.002154           0.122378        0.004798   
 
-   Refrigerator [kW]  Microwave [kW]  OfficeLights [kW]  
-0           0.132692        0.004703           0.069224  
-1           0.139037        0.004823           0.068971  
-2           0.034479        0.004660           0.068794  
-3           0.129486        0.004822           0.068807  
-4           0.122378        0.004798           0.068828  
+   OfficeLights [kW]  
+0           0.069224  
+1           0.068971  
+2           0.068794  
+3           0.068807  
+4           0.068828  
 
 Missing Values:
 Date & Time                         0
-use [kW]                            0
 KitchenDenLights [kW]               0
 MasterBedBathLights [kW]            0
 MasterOutlets [kW]                  0
@@ -53,7 +52,6 @@ dtype: int64
 
 Data Types:
 Date & Time                         datetime64[ns]
-use [kW]                                   float64
 KitchenDenLights [kW]                      float64
 MasterBedBathLights [kW]                   float64
 MasterOutlets [kW]                         float64
@@ -69,9 +67,6 @@ OfficeLights [kW]                          float64
 dtype: object
 
 Range Checks:
-
-Range for use [kW]:
-Min: 0.021933334, Max: 5.028483332
 
 Range for KitchenDenLights [kW]:
 Min: 0.001333333, Max: 0.348316667
